@@ -1,0 +1,20 @@
+# timeshuffle
+
+A lightweight privacy method based on time shuffling designed for sharing \
+power profiles based data in open forums.
+
+Conceptulised in the Energy and Power Group.
+Energy and Power Group is part of the Department of Engineering Science,
+University of Oxford.
+
+A profile is split into periods with datapoints scrambled within each period.
+The mean value of each period is maintained between the scrambled data and
+the raw profile. For example, if the original
+profile was a HH profile of 48 datapoints and periods was chosen as 8,
+the profile would be shuffled within 8 periods, each containing 6
+datapoints representing 3 hours. Each of those periods in the scrambled
+profile will have the same mean value as the equivalent period in the
+original profile. Therefore, if the scrambled profile is shared openly,
+only 3 hourly data can be interpreted accurately.
+
+Author: Scot Wheeler, scot.wheeler@eng.ox.ac.uk
